@@ -1,10 +1,10 @@
 
 # Recycler View Tracker
 
-##### Calculate time spent on each item by user of a recycler view list, to serve as an engagement/analytics metric.
+#### Calculate time spent on each item by user of a recycler view list, to serve as an engagement/analytics metric.
 
 
-- Key files - MainActivity, MainViewModel, RecyclerViewTracker
+- Key files - [MainActivity](https://github.com/4shutosh/RecyclerViewTracker/blob/main/app/src/main/java/com/example/rvtracker/MainActivity.kt), [MainViewModel](https://github.com/4shutosh/RecyclerViewTracker/blob/main/app/src/main/java/com/example/rvtracker/MainViewModel.kt), [RecyclerViewTracker](https://github.com/4shutosh/RecyclerViewTracker/blob/main/app/src/main/java/com/example/rvtracker/tracker/RecyclerViewTracker.kt)
 - Based on Kotlin Coroutines and Flow
 - Filter out view types that are not required to be tracked
 - Tracking should stopped/resumed based on activity/fragment lifecycle
